@@ -3,38 +3,15 @@
     "line": 3,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 180114774,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GenericSteps.before(Scenario)"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "Logging into rediff",
+        "line": 6,
+        "name": "",
         "description": "",
-        "id": "logging-into-rediff-money;logging-into-rediff;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 923735893,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GenericSteps.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 4028729173,
+              "duration": 4980090453,
               "status": "passed"
             },
             "line": 7,
@@ -52,7 +29,7 @@
           },
           {
             "result": {
-              "duration": 8015452160,
+              "duration": 8060102400,
               "status": "passed"
             },
             "line": 8,
@@ -70,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 8284702293,
+              "duration": 7460699306,
               "status": "passed"
             },
             "line": 9,
@@ -82,37 +59,161 @@
               {
                 "cells": [
                   "Username",
-                  "ashishthakur1983"
+                  "sangita_barnwal"
                 ]
               },
               {
                 "cells": [
                   "Password",
-                  "pass@1234"
+                  "pacific"
                 ]
               }
             ],
             "keyword": "And "
           }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 285654186,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Creating a Portfolio",
+        "description": "",
+        "id": "portfolio-operation;creating-a-portfolio",
+        "after": [
+          {
+            "result": {
+              "duration": 3628615680,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1682589013,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click createPortfolio_id and wait for portfolioName_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "createPortfolio_id",
+                  "offset": 8
+                },
+                {
+                  "val": "portfolioName_id",
+                  "offset": 40
+                }
+              ],
+              "location": "GenericSteps.clickAndWait(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325429759,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I clear portfolioName_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portfolioName_id",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.clear(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288048640,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I type Port14 in portfolioName_id field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Port14",
+                  "offset": 7
+                },
+                {
+                  "val": "portfolioName_id",
+                  "offset": 17
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 332557654,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on portFolioSubmit_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portFolioSubmit_id",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4099978667,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I wait for page to load",
+            "match": {
+              "location": "GenericSteps.waitForPageToLoad()"
+            },
+            "keyword": "And "
+          }
         ],
         "tags": [
           {
-            "name": "@Login"
+            "name": "@Portfolio"
           },
           {
-            "name": "@LoginToRediffMoney"
+            "name": "@CreatePortfolio"
           }
         ]
       }
     ],
-    "name": "Logging into Rediff Money",
-    "description": "",
-    "id": "logging-into-rediff-money",
+    "name": "Portfolio operation",
+    "description": "  I want to use this template for my feature file",
+    "id": "portfolio-operation",
     "keyword": "Feature",
-    "uri": "C:/Users/mkmanish/workspace4/CucumberProject/src/test/resources/com/here/fcnr/Login.feature",
+    "uri": "C:/Users/mkmanish/workspace4/CucumberProject/src/test/resources/com/here/fcnr/Portfolio.feature",
     "tags": [
       {
-        "name": "@Login",
+        "name": "@Portfolio",
         "type": "Tag",
         "location": {
           "line": 2,

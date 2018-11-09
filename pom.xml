@@ -105,8 +105,9 @@
         <strict>true</strict>
         <monochrome>true</monochrome>
         <!-- The tags to run, maps to CucumberOptions.tags property. Default is no tags.<tags><tag>@billing</tag><tag>~@billing</tag><tag>@important</tag><tag>@important,@billing</tag></tags-->
-
-
+<tags>
+<tag>@Portfolio</tag>
+</tags>
 <!-- Generate TestNG runners instead of JUnit ones. -->
         <useTestNG>false</useTestNG>
 	</configuration>
@@ -118,7 +119,7 @@
 <artifactId>maven-surefire-plugin</artifactId>
 <version>2.22.0</version>
 <configuration>
-<forkcount>4</forkcount>
+<forkcount>1</forkcount>
         <reuseForks>true</reuseForks>
         <includes>
          <include>**/*IT.class</include>

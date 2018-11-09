@@ -3,46 +3,23 @@
     "line": 3,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 1224107,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GenericSteps.before(Scenario)"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "Logging into rediff",
+        "line": 6,
+        "name": "",
         "description": "",
-        "id": "logging-into-rediff-money;logging-into-rediff;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 4100977066,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GenericSteps.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 13314139307,
+              "duration": 3172808959,
               "status": "passed"
             },
             "line": 7,
-            "name": "I open Mozilla",
+            "name": "I open Chrome",
             "match": {
               "arguments": [
                 {
-                  "val": "Mozilla",
+                  "val": "Chrome",
                   "offset": 7
                 }
               ],
@@ -52,7 +29,7 @@
           },
           {
             "result": {
-              "duration": 10210073600,
+              "duration": 7788290133,
               "status": "passed"
             },
             "line": 8,
@@ -70,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 6024000853,
+              "duration": 17392528213,
               "status": "passed"
             },
             "line": 9,
@@ -82,37 +59,133 @@
               {
                 "cells": [
                   "Username",
-                  "ashishthakur1983"
+                  "sangita_barnwal"
                 ]
               },
               {
                 "cells": [
                   "Password",
-                  "pass@1234"
+                  "pacific"
                 ]
               }
             ],
             "keyword": "And "
           }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 851200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Deleting a portfolio",
+        "description": "",
+        "id": "portfolio-operation;deleting-a-portfolio",
+        "after": [
+          {
+            "result": {
+              "duration": 4060192427,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 356049067,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I wait for page to load",
+            "match": {
+              "location": "GenericSteps.waitForPageToLoad()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8187770453,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I select Port14 from portfolioSelection_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Port14",
+                  "offset": 9
+                },
+                {
+                  "val": "portfolioSelection_id",
+                  "offset": 21
+                }
+              ],
+              "location": "GenericSteps.select(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 810495147,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on deletePortfolio_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "deletePortfolio_id",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8778132907,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I accept alert",
+            "match": {
+              "location": "GenericSteps.iAcceptAlert()"
+            },
+            "keyword": "When "
+          }
         ],
         "tags": [
           {
-            "name": "@Login"
+            "name": "@Portfolio"
           },
           {
-            "name": "@LoginToRediffMoney"
+            "name": "@DeletePortfolio"
           }
         ]
       }
     ],
-    "name": "Logging into Rediff Money",
-    "description": "",
-    "id": "logging-into-rediff-money",
+    "name": "Portfolio operation",
+    "description": "  I want to use this template for my feature file",
+    "id": "portfolio-operation",
     "keyword": "Feature",
-    "uri": "C:/Users/mkmanish/workspace4/CucumberProject/src/test/resources/com/here/fcnr/Login.feature",
+    "uri": "C:/Users/mkmanish/workspace4/CucumberProject/src/test/resources/com/here/fcnr/Portfolio.feature",
     "tags": [
       {
-        "name": "@Login",
+        "name": "@Portfolio",
         "type": "Tag",
         "location": {
           "line": 2,

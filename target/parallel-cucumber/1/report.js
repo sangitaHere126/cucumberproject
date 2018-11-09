@@ -1,84 +1,18 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/mkmanish/workspace4/CucumberProject/src/test/resources/com/here/fcnr/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/mkmanish/workspace4/CucumberProject/src/test/resources/com/here/fcnr/Portfolio.feature");
 formatter.feature({
-  "name": "Logging into Rediff Money",
-  "description": "",
+  "name": "Portfolio operation",
+  "description": "  I want to use this template for my feature file",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@Login"
+      "name": "@Portfolio"
     }
   ]
 });
-formatter.scenarioOutline({
-  "name": "Logging into rediff",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@LoginToRediffMoney"
-    }
-  ]
-});
-formatter.step({
-  "name": "I open \u003cBrowser\u003e",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "I go to https://portfolio.rediff.com/portfolio-login",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "I login inside application",
-  "keyword": "And ",
-  "rows": [
-    {
-      "cells": [
-        "Username",
-        "ashishthakur1983"
-      ]
-    },
-    {
-      "cells": [
-        "Password",
-        "pass@1234"
-      ]
-    }
-  ]
-});
-formatter.examples({
+formatter.background({
   "name": "",
   "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "Browser"
-      ]
-    },
-    {
-      "cells": [
-        "Chrome"
-      ]
-    },
-    {
-      "cells": [
-        "Mozilla"
-      ]
-    }
-  ]
-});
-formatter.scenario({
-  "name": "Logging into rediff",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@Login"
-    },
-    {
-      "name": "@LoginToRediffMoney"
-    }
-  ]
+  "keyword": "Background"
 });
 formatter.before({
   "status": "passed"
@@ -109,13 +43,13 @@ formatter.step({
     {
       "cells": [
         "Username",
-        "ashishthakur1983"
+        "sangita_barnwal"
       ]
     },
     {
       "cells": [
         "Password",
-        "pass@1234"
+        "pacific"
       ]
     }
   ],
@@ -123,6 +57,69 @@ formatter.step({
 });
 formatter.match({
   "location": "ApplicationSteps.login(String,String\u003e)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Creating a Portfolio",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Portfolio"
+    },
+    {
+      "name": "@CreatePortfolio"
+    }
+  ]
+});
+formatter.step({
+  "name": "I click createPortfolio_id and wait for portfolioName_id",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "GenericSteps.clickAndWait(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I clear portfolioName_id",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "GenericSteps.clear(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I type Port14 in portfolioName_id field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "GenericSteps.type(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on portFolioSubmit_id",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "GenericSteps.click(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I wait for page to load",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "GenericSteps.waitForPageToLoad()"
 });
 formatter.result({
   "status": "passed"

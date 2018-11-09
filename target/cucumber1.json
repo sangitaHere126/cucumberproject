@@ -3,230 +3,6 @@
     "line": 3,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 235681706,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GenericSteps.before(Scenario)"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "Logging into rediff",
-        "description": "",
-        "id": "logging-into-rediff-money;logging-into-rediff;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 761197227,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GenericSteps.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4493567147,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I open Chrome",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Chrome",
-                  "offset": 7
-                }
-              ],
-              "location": "GenericSteps.openBrowser(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6511954773,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I go to https://portfolio.rediff.com/portfolio-login",
-            "match": {
-              "arguments": [
-                {
-                  "val": "https://portfolio.rediff.com/portfolio-login",
-                  "offset": 8
-                }
-              ],
-              "location": "GenericSteps.navigate(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5008960853,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I login inside application",
-            "match": {
-              "location": "ApplicationSteps.login(String,String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Username",
-                  "ashishthakur1983"
-                ]
-              },
-              {
-                "cells": [
-                  "Password",
-                  "pass@1234"
-                ]
-              }
-            ],
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Login"
-          },
-          {
-            "name": "@LoginToRediffMoney"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1954987,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GenericSteps.before(Scenario)"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "Logging into rediff",
-        "description": "",
-        "id": "logging-into-rediff-money;logging-into-rediff;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 4761801387,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GenericSteps.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 15970319786,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I open Mozilla",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Mozilla",
-                  "offset": 7
-                }
-              ],
-              "location": "GenericSteps.openBrowser(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 10983265280,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I go to https://portfolio.rediff.com/portfolio-login",
-            "match": {
-              "arguments": [
-                {
-                  "val": "https://portfolio.rediff.com/portfolio-login",
-                  "offset": 8
-                }
-              ],
-              "location": "GenericSteps.navigate(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6435738454,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I login inside application",
-            "match": {
-              "location": "ApplicationSteps.login(String,String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Username",
-                  "ashishthakur1983"
-                ]
-              },
-              {
-                "cells": [
-                  "Password",
-                  "pass@1234"
-                ]
-              }
-            ],
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Login"
-          },
-          {
-            "name": "@LoginToRediffMoney"
-          }
-        ]
-      }
-    ],
-    "name": "Logging into Rediff Money",
-    "description": "",
-    "id": "logging-into-rediff-money",
-    "keyword": "Feature",
-    "uri": "src/test/resources/com/here/fcnr/Login.feature",
-    "tags": [
-      {
-        "name": "@Login",
-        "type": "Tag",
-        "location": {
-          "line": 2,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 3,
-    "elements": [
-      {
         "line": 6,
         "name": "",
         "description": "",
@@ -235,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3060212480,
+              "duration": 5542881706,
               "status": "passed"
             },
             "line": 7,
@@ -253,7 +29,7 @@
           },
           {
             "result": {
-              "duration": 12728234240,
+              "duration": 7616591786,
               "status": "passed"
             },
             "line": 8,
@@ -271,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 6874859520,
+              "duration": 7063237973,
               "status": "passed"
             },
             "line": 9,
@@ -301,7 +77,7 @@
         "before": [
           {
             "result": {
-              "duration": 2171307,
+              "duration": 263628800,
               "status": "passed"
             },
             "match": {
@@ -316,7 +92,7 @@
         "after": [
           {
             "result": {
-              "duration": 197779627,
+              "duration": 5829412693,
               "status": "passed"
             },
             "match": {
@@ -329,7 +105,7 @@
         "steps": [
           {
             "result": {
-              "duration": 335792214,
+              "duration": 721690454,
               "status": "passed"
             },
             "line": 16,
@@ -351,7 +127,7 @@
           },
           {
             "result": {
-              "duration": 199180373,
+              "duration": 319381760,
               "status": "passed"
             },
             "line": 17,
@@ -369,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 281263787,
+              "duration": 428706560,
               "status": "passed"
             },
             "line": 18,
@@ -391,7 +167,7 @@
           },
           {
             "result": {
-              "duration": 201363626,
+              "duration": 412522667,
               "status": "passed"
             },
             "line": 19,
@@ -409,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 2084106240,
+              "duration": 2948695041,
               "status": "passed"
             },
             "line": 20,
@@ -438,7 +214,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2667583147,
+              "duration": 3781148587,
               "status": "passed"
             },
             "line": 7,
@@ -456,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 9374940587,
+              "duration": 8182247253,
               "status": "passed"
             },
             "line": 8,
@@ -474,9 +250,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id\u003d\u0027userpass\u0027] (tried for 50 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.13.0\u0027, revision: \u00272f0d292\u0027, time: \u00272018-06-25T15:24:21.231Z\u0027\nSystem info: host: \u0027DESKTOP-R2LHH53\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\\Users\\mkmanish\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54122}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: b7c981a54ec034b6f6c39b36d91...}\nSession ID: b7c981a54ec034b6f6c39b36d91e5c24\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\r\n\tat com.here.fcnr.webdriver.WebConnector.type(WebConnector.java:125)\r\n\tat com.here.fcnr.webdriver.WebConnector.login(WebConnector.java:155)\r\n\tat com.here.fcnr.steps.ApplicationSteps.login(ApplicationSteps.java:31)\r\n\tat ✽.I login inside application(src/test/resources/com/here/fcnr/Portfolio.feature:9)\r\n",
-              "duration": 51029980587,
-              "status": "failed"
+              "duration": 8789637120,
+              "status": "passed"
             },
             "line": 9,
             "name": "I login inside application",
@@ -505,7 +280,7 @@
         "before": [
           {
             "result": {
-              "duration": 894293,
+              "duration": 856747,
               "status": "passed"
             },
             "match": {
@@ -520,7 +295,7 @@
         "after": [
           {
             "result": {
-              "duration": 152071680,
+              "duration": 1885367894,
               "status": "passed"
             },
             "match": {
@@ -533,7 +308,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 89120000,
+              "status": "passed"
             },
             "line": 24,
             "name": "I wait for page to load",
@@ -544,7 +320,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2157544960,
+              "status": "passed"
             },
             "line": 25,
             "name": "I select Port14 from portfolioSelection_id",
@@ -565,7 +342,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 266534826,
+              "status": "passed"
             },
             "line": 26,
             "name": "I click on deletePortfolio_id",
@@ -582,7 +360,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5138699520,
+              "status": "passed"
             },
             "line": 28,
             "name": "I accept alert",

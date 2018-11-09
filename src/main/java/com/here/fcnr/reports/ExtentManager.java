@@ -14,7 +14,7 @@ public class ExtentManager {
 	private static ExtentReports extent;
 	public static String screenshotFolderPath;
 	
-	public static ExtentReports getInstance(String reportPath){
+	public static ExtentReports getInstance1(String reportPath){
 		 if (extent==null){
 			 String fileName="Report.html";
 			 Date d= new Date();
@@ -30,6 +30,18 @@ public class ExtentManager {
 		return extent;
 	}
 	
+	public static ExtentReports getInstance(String reportPath){
+		 if (extent==null){
+			 String fileName="Report.html";
+			 
+			 
+			 screenshotFolderPath=reportPath+"screenshots//";
+			 createInstance(reportPath+fileName);		 
+			 
+			 
+		 }
+		return extent;
+	}
 	
 	public static ExtentReports createInstance(String fileName){
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);

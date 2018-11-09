@@ -9,3 +9,5 @@ java -Dwebdriver.gecko.driver="geckodriver.exe" -Dwebdriver.chrome.driver="chrom
 Node2 setup ->
 java -Dwebdriver.gecko.driver="geckodriver.exe" -Dwebdriver.chrome.driver="chromedriver.exe" -jar selenium-server-standalone-3.141.5.jar -role node -nodeConfig node2.json
 C:\Users\mkmanish\workspace4\CucumberProject
+
+Jenkins admin/here
