@@ -1,0 +1,124 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1224107,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Logging into rediff",
+        "description": "",
+        "id": "logging-into-rediff-money;logging-into-rediff;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4100977066,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13314139307,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open Mozilla",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 7
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10210073600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I go to https://portfolio.rediff.com/portfolio-login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://portfolio.rediff.com/portfolio-login",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6024000853,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I login inside application",
+            "match": {
+              "location": "ApplicationSteps.login(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "ashishthakur1983"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "pass@1234"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@LoginToRediffMoney"
+          }
+        ]
+      }
+    ],
+    "name": "Logging into Rediff Money",
+    "description": "",
+    "id": "logging-into-rediff-money",
+    "keyword": "Feature",
+    "uri": "C:/Users/mkmanish/workspace4/CucumberProject/src/test/resources/com/here/fcnr/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

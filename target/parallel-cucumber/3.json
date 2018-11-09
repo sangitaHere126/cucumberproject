@@ -1,0 +1,225 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3688176640,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 7
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7517853440,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I go to https://portfolio.rediff.com/portfolio-login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://portfolio.rediff.com/portfolio-login",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6232280747,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I login inside application",
+            "match": {
+              "location": "ApplicationSteps.login(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "sangita_barnwal"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "pacific"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 922880,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Creating a Portfolio",
+        "description": "",
+        "id": "portfolio-operation;creating-a-portfolio",
+        "after": [
+          {
+            "result": {
+              "duration": 145832534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 390936320,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click createPortfolio_id and wait for portfolioName_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "createPortfolio_id",
+                  "offset": 8
+                },
+                {
+                  "val": "portfolioName_id",
+                  "offset": 40
+                }
+              ],
+              "location": "GenericSteps.clickAndWait(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207539627,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I clear portfolioName_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portfolioName_id",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.clear(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 299061760,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I type Port14 in portfolioName_id field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Port14",
+                  "offset": 7
+                },
+                {
+                  "val": "portfolioName_id",
+                  "offset": 17
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 545578240,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on portFolioSubmit_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portFolioSubmit_id",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8515777280,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I wait for page to load",
+            "match": {
+              "location": "GenericSteps.waitForPageToLoad()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Portfolio"
+          },
+          {
+            "name": "@CreatePortfolio"
+          }
+        ]
+      }
+    ],
+    "name": "Portfolio operation",
+    "description": "  I want to use this template for my feature file",
+    "id": "portfolio-operation",
+    "keyword": "Feature",
+    "uri": "C:/Users/mkmanish/workspace4/CucumberProject/src/test/resources/com/here/fcnr/Portfolio.feature",
+    "tags": [
+      {
+        "name": "@Portfolio",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+
+
+Hub setup ->
+java -jar selenium-server-standalone-3.141.5.jar -role hub -port 4455
+
+Node1 setup ->
+java -Dwebdriver.gecko.driver="geckodriver.exe" -Dwebdriver.chrome.driver="chromedriver.exe" -jar selenium-server-standalone-3.141.5.jar -role node -nodeConfig node1.json 
+
+Node2 setup ->
+java -Dwebdriver.gecko.driver="geckodriver.exe" -Dwebdriver.chrome.driver="chromedriver.exe" -jar selenium-server-standalone-3.141.5.jar -role node -nodeConfig node2.json
+C:\Users\mkmanish\workspace4\CucumberProject
